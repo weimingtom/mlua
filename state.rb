@@ -1,4 +1,5 @@
-# coding: utf-8
+﻿# coding: utf-8
+require 'stringio'
 
 module Mlua
   class CallInfo < Struct.new(:func, :result_idx, :base, :prev, :nresults, :saved_pc)
